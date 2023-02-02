@@ -9,8 +9,6 @@ os.environ['KMP_DUPLICATE_LIB_OK']='TRUE'
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
-import pyemma
-import pyemma.plots as mplt
 
 import h5py
 from keras.callbacks import ModelCheckpoint
@@ -80,8 +78,6 @@ session_conf = tf.ConfigProto(intra_op_parallelism_threads=1, inter_op_paralleli
 sess = tf.Session(graph=tf.get_default_graph(), config=session_conf)
 K.set_session(sess)
 
-
-
 ####################################################################################################################
 
 #Sometimes the same block should be repeated twice to make sure the effect of these commands:
@@ -107,7 +103,6 @@ from keras import backend as K
 session_conf = tf.ConfigProto(intra_op_parallelism_threads=1, inter_op_parallelism_threads=1)
 sess = tf.Session(graph=tf.get_default_graph(), config=session_conf)
 K.set_session(sess)
-
 
 ####################################################################################################################
 
