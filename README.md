@@ -9,4 +9,4 @@ The lig-binding-ae-model.py python file will take the ligand-com-to-C-alpha dist
 and after model training and prediction, it will return us the hidden-projected
 "encoded data". This "encoded data" will be needed for all our future work.
 
-we need to pre-installed keras and tensorflow to run our code.
+We need to have pre-installed keras and tensorflow library to run our code.
