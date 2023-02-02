@@ -55,7 +55,7 @@ data_new_final = np.concatenate(data_new)
 
 ####################################################################################################################
 
-#Setting All the seeds necessity to get reproducible results while running in CPU:
+#Setting All the seeds necessary to get reproducible results while running in CPU:
 
 import keras
 from keras import layers
@@ -81,7 +81,7 @@ K.set_session(sess)
 ####################################################################################################################
 
 #Sometimes the same block should be repeated twice to make sure the effect of these commands:
-#So, the previous block is being reated again one more time.
+#So, the previous block is being repeated again one more time.
 
 import keras
 from keras import layers
