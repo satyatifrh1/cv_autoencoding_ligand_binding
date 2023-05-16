@@ -3,6 +3,7 @@ Collective Variable Discovery by Deep Encoder-Decoder Model:
 
 The paper is:
   "A deep encoder–decoder framework for identifying distinct ligand binding pathways"
+
 Satyabrata Bandyopadhyay; Jagannath Mondal  
 J. Chem. Phys. 158, 194103 (2023)
 https://doi.org/10.1063/5.0145197
