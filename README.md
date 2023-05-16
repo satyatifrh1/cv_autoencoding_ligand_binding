@@ -1,5 +1,14 @@
 # CV_autoencoding_ligand_binding
-Collective Variable Discovery by Deep Encoder-Decoder Model
+Collective Variable Discovery by Deep Encoder-Decoder Model:
+
+The paper is:
+  "A deep encoder–decoder framework for identifying distinct ligand binding pathways"
+Satyabrata Bandyopadhyay; Jagannath Mondal  
+J. Chem. Phys. 158, 194103 (2023)
+https://doi.org/10.1063/5.0145197
+
+The paper link is:
+  https://pubs.aip.org/aip/jcp/article/158/19/194103/2890463/A-deep-encoder-decoder-framework-for-identifying
 
 Here, in this repository, time-evolution of three different trajectories have been shown
 with visualization of the snap-shots in vmd along with time-evolution on 
